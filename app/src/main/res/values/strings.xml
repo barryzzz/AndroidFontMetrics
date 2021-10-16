@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FontMetrics</string>
+    <string name="demo_text">中文排版好难啊！중국어는 조판하기가 정말 어렵다！中国語の組版は難しいですね！Chinese typesetting is so difficult！พิมพ์ภาษาจีนยากจัง！พิมพ์ภาษาจีนยากจัง พิมพ์ภาษาจีนยากจัง พิมพ์ภาษาจีนยากจัง</string>
 </resources>

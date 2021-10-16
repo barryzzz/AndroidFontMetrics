@@ -5,10 +5,10 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.Toast;
 
 
 public class FontMetricsView extends View {
@@ -58,6 +58,10 @@ public class FontMetricsView extends View {
         mTextPaint.setAntiAlias(true);
         mTextPaint.setTextSize(mTextSize);
         mTextPaint.setColor(Color.BLACK);
+
+        Typeface tf = Typeface.createFromAsset(getResources().getAssets(), "Rich.ttf");
+
+        mTextPaint.setTypeface(tf);
 
         mLinePaint = new Paint();
         mLinePaint.setColor(Color.RED);
